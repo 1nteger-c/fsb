@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+void win(){
+system("/bin/sh");
+}
+
 int main(void)
 {
 
